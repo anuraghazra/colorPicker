@@ -1,0 +1,155 @@
+div {
+  margin: 15px;
+  padding: 15px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+div:hover {
+  cursor: pointer;
+}
+.gap {
+  line-height: 140px;
+  padding: 40px;
+  white-space: nowrap;
+}
+.container {
+  display: inline-grid;
+  grid-template-columns: repeat(7, 200px);
+}
+.clr {
+  color: #ffffff;
+}
+
+#red1 {
+  background: #eb4d4b;
+  position: relative;
+}
+.mybuttonoverlap {
+  position: absolute;
+  background-color: #000000;
+  color: #ffffff;
+  z-index: 2;
+  top: 75px;
+  display: none;
+  left: 36px;
+}
+.btn:hover .mybuttonoverlap {
+  display: block;
+  cursor: pointer;
+}
+
+#red2 {
+  background: #ff1744;
+  position: relative;
+}
+
+#red3 {
+  background: #e53935;
+  position: relative;
+}
+
+#red4 {
+  background: #d50000;
+  position: relative;
+}
+
+#red5 {
+  background: #d32f2f;
+  position: relative;
+}
+
+#red6 {
+  background: #f44336;
+  position: relative;
+}
+
+#red7 {
+  background: #ff362e;
+  position: relative;
+}
+
+#red8 {
+  background: #ff4848;
+  position: relative;
+}
+
+#red9 {
+  background: #e83350;
+  position: relative;
+}
+
+#red10 {
+  background: #ae1438;
+  position: relative;
+}
+
+#red11 {
+  background: #e8290b;
+  position: relative;
+}
+
+#red12 {
+  background: #e44236;
+  position: relative;
+}
+
+#red13 {
+  background: #b83227;
+  position: relative;
+}
+
+#red14 {
+  background: #d63031;
+  position: relative;
+}
+
+#red15 {
+  background: #e84342;
+  position: relative;
+}
+
+#red16 {
+  background: #ff3031;
+  position: relative;
+}
+#red17 {
+  background: #ea425c;
+  position: relative;
+}
+#red18 {
+  background: #e71c23;
+  position: relative;
+}
+#red19 {
+  background: #ff3e4d;
+  position: relative;
+}
+#red20 {
+  background: #ec4849;
+  position: relative;
+}
+#red21 {
+  background: #ba2f16;
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+@media screen and (max-width: 1490px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+@media screen and (max-width: 1270px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 200px);
+  }
+}

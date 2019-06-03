@@ -1,0 +1,172 @@
+div{
+    margin:15px;
+    padding: 15px;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    
+  }
+  
+  
+  div:hover{
+    cursor: pointer;
+   
+  }
+  .gap{
+    line-height: 140px;
+    padding: 40px;
+    white-space: nowrap;
+    
+  }
+  .container {
+    display: inline-grid;
+     grid-template-columns: repeat(7, 200px);
+  
+  }
+  .clr {
+    color: #ffffff;
+  }
+  
+  #blue1 {
+    background: #3498db;
+    position: relative;
+  
+  }
+  .mybuttonoverlap{
+    position: absolute;
+    background-color:#000000;
+    color: #ffffff;
+    z-index: 2;
+    top: 75px;
+    display: none;
+    left: 36px;	
+    }
+    .btn:hover .mybuttonoverlap{ 
+      display:block;
+      cursor: pointer;
+      }
+  
+  #blue2 {
+    background: #2475b0;
+    position: relative;
+  
+  }
+  
+  #blue3 {
+    background: #74b9ff;
+    position: relative;
+  }
+  
+  #blue4 {
+    background: #0a79df;
+    position: relative;
+  }
+  
+  #blue5 {
+    background: #4834df;
+    position: relative;
+  }
+  
+  #blue6 {
+    background: #30336b;
+    position: relative;
+  }
+  
+  
+  #blue7 {
+    background: #487eb0;
+    position: relative;
+  }
+  
+  
+  #blue8 {
+    background: #192a56;
+    position: relative;
+  }
+  
+  #blue9 {
+    background: #6a89cc;
+    position: relative;
+  }
+  
+  #blue10 {
+    background: #0a3d62;
+    position: relative;
+  }
+  
+  #blue11 {
+    background: #4B77BE;
+    position: relative;
+  }
+  
+  #blue12 {
+    background: #304FFE;
+    position: relative;
+  }
+  
+  #blue13{
+    background: #4527A0;
+    position: relative;
+  }
+  
+  #blue14 {
+    background: #30336b;
+    position: relative;
+  }
+  
+  #blue15{
+    background: #3C40C6;
+    position: relative;
+  }
+  
+  #blue16{
+    background: #25CCF7;
+    position: relative;
+  }
+  #blue17{
+    background:#003171; 
+    position: relative;
+  }
+  #blue18{
+    background: #4BCFFA;
+    position: relative;
+  }
+  #blue19{
+    background: #0ABDE3;
+    position: relative;
+  
+  }
+  #blue20{
+    background: #8C7AE6;
+    position: relative;
+  }
+  #blue21{
+    background: #67E6DC;
+    position: relative;
+  }
+ 
+  @media screen and (max-width:1300px){
+    .container {
+      display: inline-grid;
+       grid-template-columns: repeat(6, 200px);
+    
+    }
+  
+  }
+  
+  @media screen and (max-width:1490px){
+    .container {
+      display: inline-grid;
+       grid-template-columns: repeat(6, 200px);
+    
+    }
+  
+  }
+  @media screen and (max-width:1270px){
+    .container {
+      display: inline-grid;
+       grid-template-columns: repeat(5, 200px);
+    
+    }
+  }
+  

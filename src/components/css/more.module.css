@@ -1,0 +1,170 @@
+div{
+    margin:15px;
+    padding: 15px;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+  }
+  
+  
+  div:hover{
+    cursor: pointer;
+   
+  }
+  .gap{
+    line-height: 140px;
+    padding: 40px;
+    white-space: nowrap;
+    
+  }
+  .container {
+    display: inline-grid;
+     grid-template-columns: repeat(7, 200px);
+  
+  }
+  .clr {
+    color: #ffffff;
+  }
+  
+  #more1 {
+    background: #01CBC6;
+    position: relative;
+  
+  }
+  .mybuttonoverlap{
+    position: absolute;
+    background-color:#000000;
+    color: #ffffff;
+    z-index: 2;
+    top: 75px;
+    display: none;
+    left: 36px;	
+    }
+    .btn:hover .mybuttonoverlap{ 
+      display:block;
+      cursor: pointer;
+      }
+  
+  #more2 {
+    background: #EA7773;
+    position: relative;
+  
+  }
+  
+  #more3 {
+    background: #BB2CD9;
+    position: relative;
+  }
+  
+  #more4 {
+    background: #8B78E6;
+    position: relative;
+  }
+  
+  #more5 {
+    background: #2B2B52;
+    position: relative;
+  }
+  
+  #more6 {
+    background: #EAF0F1;
+    position: relative;
+  }
+  
+  
+  #more7 {
+    background: #F5BCBA;
+    position: relative;
+  }
+  
+  
+  #more8 {
+    background: #E74292;
+    position: relative;
+  }
+  
+  #more9 {
+    background:#FD9644;
+    position: relative;
+  }
+  
+  #more10 {
+    background: #4cd137;
+    position: relative;
+  }
+  
+  #more11 {
+    background: #353b48;
+    position: relative;
+  }
+  
+  #more12 {
+    background: #e84393;
+    position: relative;
+  }
+  
+  #more13{
+    background: #fd79a8;
+    position: relative;
+  }
+  
+  #more14 {
+    background: #ffeaa7;
+    position: relative;
+  }
+  
+  #more15{
+    background: #0984e3;
+    position: relative;
+  }
+  
+  #more16{
+    background: #6c5ce7;
+    position: relative;
+  }
+  #more17{
+    background:#2d3436; 
+    position: relative;
+  }
+  #more18{
+    background: #a55eea;
+    position: relative;
+  }
+  #more19{
+    background: #45aaf2;
+    position: relative;
+  
+  }
+  #more20{
+    background: #F3B431;
+    position: relative;
+  }
+  #more21{
+    background: #20bf6b;
+    position: relative;
+  }
+ 
+  @media screen and (max-width:1300px){
+    .container {
+      display: inline-grid;
+       grid-template-columns: repeat(6, 200px);
+    
+    }
+    
+  }
+  @media screen and (max-width:1490px){
+    .container {
+      display: inline-grid;
+       grid-template-columns: repeat(6, 200px);
+    
+    }
+  
+  }
+  @media screen and (max-width:1270px){
+    .container {
+      display: inline-grid;
+       grid-template-columns: repeat(5, 200px);
+    
+    }
+  }
+  

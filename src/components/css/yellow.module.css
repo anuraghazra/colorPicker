@@ -1,0 +1,155 @@
+div {
+  margin: 15px;
+  padding: 15px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+div:hover {
+  cursor: pointer;
+}
+.gap {
+  line-height: 140px;
+  padding: 40px;
+  white-space: nowrap;
+}
+.container {
+  display: inline-grid;
+  grid-template-columns: repeat(7, 200px);
+}
+.clr {
+  color: #ffffff;
+}
+
+#yellow1 {
+  background: #f9a602;
+  position: relative;
+}
+.mybuttonoverlap {
+  position: absolute;
+  background-color: #000000;
+  color: #ffffff;
+  z-index: 2;
+  top: 75px;
+  display: none;
+  left: 36px;
+}
+.btn:hover .mybuttonoverlap {
+  display: block;
+  cursor: pointer;
+}
+
+#yellow2 {
+  background: #ffc30b;
+  position: relative;
+}
+
+#yellow3 {
+  background: #fda50f;
+  position: relative;
+}
+
+#yellow4 {
+  background: #ffd300;
+  position: relative;
+}
+
+#yellow5 {
+  background: #c49102;
+  position: relative;
+}
+
+#yellow6 {
+  background: #ffbf00;
+  position: relative;
+}
+
+#yellow7 {
+  background: #e1da00;
+  position: relative;
+}
+
+#yellow8 {
+  background: #fff222;
+  position: relative;
+}
+
+#yellow9 {
+  background: #f9dda4;
+  position: relative;
+}
+
+#yellow10 {
+  background: #f3cc79;
+  position: relative;
+}
+
+#yellow11 {
+  background: #e5b143;
+  position: relative;
+}
+
+#yellow12 {
+  background: #eec213;
+  position: relative;
+}
+
+#yellow13 {
+  background: #f5c469;
+  position: relative;
+}
+
+#yellow14 {
+  background: #f4c724;
+  position: relative;
+}
+
+#yellow15 {
+  background: #f0df87;
+  position: relative;
+}
+
+#yellow16 {
+  background: #dfaf2b;
+  position: relative;
+}
+#yellow17 {
+  background: #fac42f;
+  position: relative;
+}
+#yellow18 {
+  background: #f3b63a;
+  position: relative;
+}
+#yellow19 {
+  background: #fbd28b;
+  position: relative;
+}
+#yellow20 {
+  background: #f3b431;
+  position: relative;
+}
+#yellow21 {
+  background: #fad02e;
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+@media screen and (max-width: 1490px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+@media screen and (max-width: 1270px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 200px);
+  }
+}
