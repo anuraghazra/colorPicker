@@ -108,7 +108,7 @@ const Nav = () => {
             duration={500}
           />
           <div className={style.sourcecode}>
-            <a href="https://github.com/">
+            <a href="https://github.com/Alidhuniya/colorPicker">
               <img src={github} alt="Source Code" />
             </a>
           </div>

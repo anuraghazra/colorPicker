@@ -17,7 +17,6 @@
 
 **Service Worker for Offline Access**
 
-
 #### Inspired by:
 (http://uicolorpicker.com/)
 (https://flatuicolors.com/)
@@ -26,7 +25,6 @@
 #### Everyone is Welcome... 
 **Contribute this Project by doing refactor of Source code or by changing UI.**
 
+
 [ Connect with me]
 (https://www.facebook.com/dhuniya.1920)
-
-"# colorPicker" 

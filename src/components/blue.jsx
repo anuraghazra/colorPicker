@@ -2,17 +2,37 @@ import React, { Fragment } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import style from "./css/blue.module.css";
 
-const Blue = () => {
+class Blue extends React.Component{
+
+  constructor(props){
+    super(props);
+   
+    this.state = {
+    values: "Click to Copy"
+}
+  }
+
+handleClick = () =>{
+  this.setState({values: "C O P I E D"});
+};
+/* componentDidMount() {
+  this.handleClick = setTimeout(() => this.setState({ values: "C O P I E D" }), 3000);
+}
+componentWillUnmount() {
+  clearInterval(this.handleClick);
+} */
+  render(){
   return (
     <Fragment>
-      <div className={style.container} id="blue">
+      <div className={style.container} id="blue" onClick={this.handleClick} >
         <CopyToClipboard text="#3498DB">
-          <div id={style.blue1} className={style.btn}>
+          <div id={style.blue1} className={style.btn} >
             <span className={`${style.gap} ${style.clr}`}>
               <input
                 type="button"
+                
                 className={style.mybuttonoverlap}
-                value="Click to Copy"
+                value={this.state.values}
               />
               #3498DB
             </span>
@@ -280,7 +300,9 @@ const Blue = () => {
         </CopyToClipboard>
       </div>
     </Fragment>
-  );
-};
+  )
+}
+}
+
 
 export default Blue;

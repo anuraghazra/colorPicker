@@ -7,7 +7,6 @@ import Red from "./components/red";
 import Grey from "./components/grey";
 import Yellow from "./components/yellow";
 import More from "./components/more";
-import Contributor from "./components/contributor";
 import Footer from "./components/footer";
 
 const App = () => {
@@ -34,9 +33,6 @@ const App = () => {
       </div>
       <div className="div2">
         <More />
-        <div>
-          <Contributor />
-        </div>
       </div>
       <div>
         <Footer />
