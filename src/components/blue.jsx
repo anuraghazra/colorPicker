@@ -9,18 +9,19 @@ class Blue extends React.Component{
    
     this.state = {
     values: "Click to Copy"
+    
 }
   }
 
 handleClick = () =>{
   this.setState({values: "C O P I E D"});
 };
-/* componentDidMount() {
-  this.handleClick = setTimeout(() => this.setState({ values: "C O P I E D" }), 3000);
+
+
+componentDidUpdate(){
+  setTimeout(()  => this.setState({values: "Click to Copy"}), 3000);
 }
-componentWillUnmount() {
-  clearInterval(this.handleClick);
-} */
+
   render(){
   return (
     <Fragment>
