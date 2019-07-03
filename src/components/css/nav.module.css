@@ -23,8 +23,8 @@ nav .logo img {
 }
 nav .sourcecode {
   float: left;
-  margin-top: -5px;
-  margin-left: -150px;
+  margin-top: -80px;
+  margin-left: 930px;
 }
 nav .sourcecode img {
   height: 60px;
@@ -82,7 +82,14 @@ active5:hover {
 nav ul li a.active6,
 active6:hover {
   border: 1px solid;
-  color: #000000;
+  background: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #bbc1bf 19%,
+    #57c6e1 42%,
+    #b49fda 79%,
+    #7ac5d8 100%
+  );
 }
 
 @media screen and (max-width: 1270px) {

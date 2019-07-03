@@ -6,8 +6,10 @@ import Green from "./components/green";
 import Red from "./components/red";
 import Grey from "./components/grey";
 import Yellow from "./components/yellow";
+import Gradients from './components/gradients';
 import More from "./components/more";
 import Footer from "./components/footer";
+
 
 const App = () => {
   return (
@@ -33,6 +35,9 @@ const App = () => {
       </div>
       <div className="div2">
         <More />
+      </div>
+      <div className="div2">
+        <Gradients />
       </div>
       <div>
         <Footer />

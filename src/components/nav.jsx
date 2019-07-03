@@ -101,6 +101,20 @@ const Nav = () => {
           </Link>
           <Link
             activeClass="active"
+            to="gradients"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <li>
+              <a href="more" className={style.active6}>
+                Gradients
+              </a>
+            </li>
+          </Link>
+          <Link
+            activeClass="active"
             to="contributor"
             spy={true}
             smooth={true}

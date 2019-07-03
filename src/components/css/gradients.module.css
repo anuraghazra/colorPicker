@@ -1,0 +1,219 @@
+div {
+  margin: 15px;
+  padding: 15px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+div:hover {
+  cursor: pointer;
+}
+.gap {
+  line-height: 140px;
+  padding: 40px;
+  white-space: nowrap;
+}
+.container {
+  display: inline-grid;
+  grid-template-columns: repeat(7, 200px);
+}
+.clr {
+  color: #ffffff;
+}
+
+#grad1 {
+  background: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  position: relative;
+}
+.mybuttonoverlap {
+  position: absolute;
+  background-color: #000000;
+  color: #ffffff;
+  z-index: 2;
+  top: 75px;
+  display: none;
+  left: 36px;
+}
+.btn:hover .mybuttonoverlap {
+  display: block;
+  cursor: pointer;
+}
+
+#grad2 {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  position: relative;
+}
+
+#grad3 {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+  position: relative;
+}
+
+#grad4 {
+  background: linear-gradient(
+    to top,
+    #3f51b1 0%,
+    #5a55ae 13%,
+    #7b5fac 25%,
+    #8f6aae 38%,
+    #a86aa4 50%,
+    #cc6b8e 62%,
+    #f18271 75%,
+    #f3a469 87%,
+    #f7c978 100%
+  );
+  position: relative;
+}
+
+#grad5 {
+  background: linear-gradient(
+    to top,
+    #dbdcd7 0%,
+    #dddcd7 24%,
+    #e2c9cc 30%,
+    #e7627d 46%,
+    #b8235a 59%,
+    #801357 71%,
+    #3d1635 84%,
+    #1c1a27 100%
+  );
+  position: relative;
+}
+
+#grad6 {
+  background: linear-gradient(
+    to top,
+    #4fb576 0%,
+    #44c489 30%,
+    #28a9ae 46%,
+    #28a2b7 59%,
+    #4c7788 71%,
+    #6c4f63 86%,
+    #432c39 100%
+  );
+  position: relative;
+}
+
+#grad7 {
+  background: linear-gradient(-225deg, #ff057c 0%, #8d0b93 50%, #321575 100%);
+  position: relative;
+}
+
+#grad8 {
+  background: linear-gradient(-225deg, #69eacb 0%, #eaccf8 48%, #6654f1 100%);
+  position: relative;
+}
+
+#grad9 {
+  background: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  position: relative;
+}
+
+#grad10 {
+  background: linear-gradient(-225deg, #3d4e81 0%, #5753c9 48%, #6e7ff3 100%);
+  position: relative;
+}
+
+#grad11 {
+  background: linear-gradient(-225deg, #a445b2 0%, #d41872 52%, #ff0066 100%);
+  position: relative;
+}
+
+#grad12 {
+  background: linear-gradient(-225deg, #7742b2 0%, #f180ff 52%, #fd8bd9 100%);
+  position: relative;
+}
+
+#grad13 {
+  background: linear-gradient(
+    to top,
+    lightgrey 0%,
+    lightgrey 1%,
+    #e0e0e0 26%,
+    #efefef 48%,
+    #d9d9d9 75%,
+    #bcbcbc 100%
+  );
+  position: relative;
+}
+
+#grad14 {
+  background: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+  position: relative;
+}
+
+#grad15 {
+  background: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+  position: relative;
+}
+
+#grad16 {
+  background: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
+  position: relative;
+}
+#grad17 {
+  background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+  position: relative;
+}
+#grad18 {
+  background: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+  position: relative;
+}
+#grad19 {
+  background: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  position: relative;
+}
+#grad20 {
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  position: relative;
+}
+#grad21 {
+  background: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+@media screen and (max-width: 1490px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 200px);
+  }
+}

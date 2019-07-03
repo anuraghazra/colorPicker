@@ -1,170 +1,156 @@
-div{
-    margin:15px;
-    padding: 15px;
-    height: 140px;
-    width: 140px;
-    border-radius: 50%;
-  }
-  
-  
-  div:hover{
-    cursor: pointer;
-   
-  }
-  .gap{
-    line-height: 140px;
-    padding: 40px;
-    white-space: nowrap;
-    
-  }
+div {
+  margin: 15px;
+  padding: 15px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+div:hover {
+  cursor: pointer;
+}
+.gap {
+  line-height: 140px;
+  padding: 40px;
+  white-space: nowrap;
+}
+.container {
+  display: inline-grid;
+  grid-template-columns: repeat(7, 200px);
+}
+.clr {
+  color: #ffffff;
+}
+
+#grey1 {
+  background: #212121;
+  position: relative;
+}
+.mybuttonoverlap {
+  position: absolute;
+  background-color: #000000;
+  color: #ffffff;
+  z-index: 2;
+  top: 75px;
+  display: none;
+  left: 36px;
+}
+.btn:hover .mybuttonoverlap {
+  display: block;
+  cursor: pointer;
+}
+
+#grey2 {
+  background: #dae0e2;
+  position: relative;
+}
+
+#grey3 {
+  background: #4c4b4b;
+  position: relative;
+}
+
+#grey4 {
+  background: #8395a7;
+  position: relative;
+}
+
+#grey5 {
+  background: #a4b0bd;
+  position: relative;
+}
+
+#grey6 {
+  background: #535c68;
+  position: relative;
+}
+
+#grey7 {
+  background: #535c68;
+  position: relative;
+}
+
+#grey8 {
+  background: #47535e;
+  position: relative;
+}
+
+#grey9 {
+  background: #586776;
+  position: relative;
+}
+
+#grey10 {
+  background: #616c6f;
+  position: relative;
+}
+
+#grey11 {
+  background: #99aaab;
+  position: relative;
+}
+
+#grey12 {
+  background: #2c3335;
+  position: relative;
+}
+
+#grey13 {
+  background: #333945;
+  position: relative;
+}
+
+#grey14 {
+  background: #2f363f;
+  position: relative;
+}
+
+#grey15 {
+  background: #777e8b;
+  position: relative;
+}
+
+#grey16 {
+  background: #758aa2;
+  position: relative;
+}
+#grey17 {
+  background: #333943;
+  position: relative;
+}
+#grey18 {
+  background: #333940;
+  position: relative;
+}
+#grey19 {
+  background: #333949;
+  position: relative;
+}
+#grey20 {
+  background: #333946;
+  position: relative;
+}
+#grey21 {
+  background: #333666;
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
   .container {
     display: inline-grid;
-     grid-template-columns: repeat(7, 200px);
-  
+    grid-template-columns: repeat(6, 200px);
   }
-  .clr {
-    color: #ffffff;
+}
+@media screen and (max-width: 1490px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
   }
-  
-  #grey1 {
-    background: #212121;
-    position: relative;
-  
+}
+
+@media screen and (max-width: 1270px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 200px);
   }
-  .mybuttonoverlap{
-    position: absolute;
-    background-color:#000000;
-    color: #ffffff;
-    z-index: 2;
-    top: 75px;
-    display: none;
-    left: 36px;	
-    }
-    .btn:hover .mybuttonoverlap{ 
-      display:block;
-      cursor: pointer;
-      }
-  
-  #grey2 {
-    background: #DAE0E2;
-    position: relative;
-  
-  }
-  
-  #grey3 {
-    background: #4C4B4B;
-    position: relative;
-  }
-  
-  #grey4 {
-    background: #8395A7;
-    position: relative;
-  }
-  
-  #grey5 {
-    background: #A4B0BD;
-    position: relative;
-  }
-  
-  #grey6 {
-    background: #535C68;
-    position: relative;
-  }
-  
-  
-  #grey7 {
-    background: #535C68;
-    position: relative;
-  }
-  
-  
-  #grey8 {
-    background: #47535E;
-    position: relative;
-  }
-  
-  #grey9 {
-    background: #586776;
-    position: relative;
-  }
-  
-  #grey10 {
-    background: #616C6F;
-    position: relative;
-  }
-  
-  #grey11 {
-    background: #99AAAB;
-    position: relative;
-  }
-  
-  #grey12 {
-    background: #2C3335;
-    position: relative;
-  }
-  
-  #grey13{
-    background: #333945;
-    position: relative;
-  }
-  
-  #grey14 {
-    background: #2F363F;
-    position: relative;
-  }
-  
-  #grey15{
-    background: #777E8B;
-    position: relative;
-  }
-  
-  #grey16{
-    background: #758AA2;
-    position: relative;
-  }
-  #grey17{
-    background:#333943; 
-    position: relative;
-  }
-  #grey18{
-    background: #333940;
-    position: relative;
-  }
-  #grey19{
-    background: #333949;
-    position: relative;
-  
-  }
-  #grey20{
-    background: #333946;
-    position: relative;
-  }
-  #grey21{
-    background: #333666;
-    position: relative;
-  }
-  
-  @media screen and (max-width:1300px){
-    .container {
-      display: inline-grid;
-       grid-template-columns: repeat(6, 200px);
-    
-    }
-    
-  }
-  @media screen and (max-width:1490px){
-    .container {
-      display: inline-grid;
-       grid-template-columns: repeat(6, 200px);
-    
-    }
-  
-  }
-  
-  @media screen and (max-width:1270px){
-    .container {
-      display: inline-grid;
-       grid-template-columns: repeat(5, 200px);
-    
-    }
-  }
+}

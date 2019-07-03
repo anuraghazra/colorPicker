@@ -1,170 +1,155 @@
-div{
-    margin:15px;
-    padding: 15px;
-    height: 140px;
-    width: 140px;
-    border-radius: 50%;
-  }
-  
-  
-  div:hover{
-    cursor: pointer;
-   
-  }
-  .gap{
-    line-height: 140px;
-    padding: 40px;
-    white-space: nowrap;
-    
-  }
+div {
+  margin: 15px;
+  padding: 15px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+div:hover {
+  cursor: pointer;
+}
+.gap {
+  line-height: 140px;
+  padding: 40px;
+  white-space: nowrap;
+}
+.container {
+  display: inline-grid;
+  grid-template-columns: repeat(7, 200px);
+}
+.clr {
+  color: #ffffff;
+}
+
+#green1 {
+  background: #43be31;
+  position: relative;
+}
+.mybuttonoverlap {
+  position: absolute;
+  background-color: #000000;
+  color: #ffffff;
+  z-index: 2;
+  top: 75px;
+  display: none;
+  left: 36px;
+}
+.btn:hover .mybuttonoverlap {
+  display: block;
+  cursor: pointer;
+}
+
+#green2 {
+  background: #2e7d32;
+  position: relative;
+}
+
+#green3 {
+  background: #1b5e20;
+  position: relative;
+}
+
+#green4 {
+  background: #bacc58;
+  position: relative;
+}
+
+#green5 {
+  background: #00b894;
+  position: relative;
+}
+
+#green6 {
+  background: #7bed9f;
+  position: relative;
+}
+
+#green7 {
+  background: #2ecc72;
+  position: relative;
+}
+
+#green8 {
+  background: #26ae60;
+  position: relative;
+}
+
+#green9 {
+  background: #6ab04c;
+  position: relative;
+}
+
+#green10 {
+  background: #6ab04a;
+  position: relative;
+}
+
+#green11 {
+  background: #badc57;
+  position: relative;
+}
+
+#green12 {
+  background: #43be31;
+  position: relative;
+}
+
+#green13 {
+  background: #45ce30;
+  position: relative;
+}
+
+#green14 {
+  background: #10a881;
+  position: relative;
+}
+
+#green15 {
+  background: #1bca9b;
+  position: relative;
+}
+
+#green16 {
+  background: #7cec9f;
+  position: relative;
+}
+#green17 {
+  background: #019031;
+  position: relative;
+}
+#green18 {
+  background: #a3cb37;
+  position: relative;
+}
+#green19 {
+  background: #75da8b;
+  position: relative;
+}
+#green20 {
+  background: #53e0bc;
+  position: relative;
+}
+#green21 {
+  background: #67e6dc;
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
   .container {
     display: inline-grid;
-     grid-template-columns: repeat(7, 200px);
-  
+    grid-template-columns: repeat(6, 200px);
   }
-  .clr {
-    color: #ffffff;
+}
+@media screen and (max-width: 1490px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
   }
-  
-  #green1 {
-    background: #43BE31;
-    position: relative;
-  
+}
+@media screen and (max-width: 1270px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 200px);
   }
-  .mybuttonoverlap{
-    position: absolute;
-    background-color:#000000;
-    color: #ffffff;
-    z-index: 2;
-    top: 75px;
-    display: none;
-    left: 36px;	
-    }
-    .btn:hover .mybuttonoverlap{ 
-      display:block;
-      cursor: pointer;
-      }
-  
-  #green2 {
-    background: #2E7D32;
-    position: relative;
-  
-  }
-  
-  #green3 {
-    background: #1B5E20;
-    position: relative;
-  }
-  
-  #green4 {
-    background: #BACC58;
-    position: relative;
-  }
-  
-  #green5 {
-    background: #00b894;
-    position: relative;
-  }
-  
-  #green6 {
-    background: #7bed9f;
-    position: relative;
-  }
-  
-  
-  #green7 {
-    background: #2ecc72;
-    position: relative;
-  }
-  
-  
-  #green8 {
-    background: #26ae60;
-    position: relative;
-  }
-  
-  #green9 {
-    background: #6ab04c;
-    position: relative;
-  }
-  
-  #green10 {
-    background: #6AB04A;
-    position: relative;
-  }
-  
-  #green11 {
-    background: #badc57;
-    position: relative;
-  }
-  
-  #green12 {
-    background: #43BE31;
-    position: relative;
-  }
-  
-  #green13{
-    background: #45CE30;
-    position: relative;
-  }
-  
-  #green14 {
-    background: #10A881;
-    position: relative;
-  }
-  
-  #green15{
-    background: #1BCA9B;
-    position: relative;
-  }
-  
-  #green16{
-    background: #7CEC9F;
-    position: relative;
-  }
-  #green17{
-    background:#019031; 
-    position: relative;
-  }
-  #green18{
-    background: #A3CB37;
-    position: relative;
-  }
-  #green19{
-    background: #75DA8B;
-    position: relative;
-  
-  }
-  #green20{
-    background: #53E0BC;
-    position: relative;
-  }
-  #green21{
-    background: #67E6DC;
-    position: relative;
-  }
-  
-  
-  @media screen and (max-width:1300px){
-    .container {
-      display: inline-grid;
-       grid-template-columns: repeat(6, 200px);
-    
-    }
-    
-  }
-  @media screen and (max-width:1490px){
-    .container {
-      display: inline-grid;
-       grid-template-columns: repeat(6, 200px);
-    
-    }
-  
-  }
-  @media screen and (max-width:1270px){
-    .container {
-      display: inline-grid;
-       grid-template-columns: repeat(5, 200px);
-    
-    }
-  }
+}
