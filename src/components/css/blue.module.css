@@ -22,10 +22,7 @@ div:hover {
   color: #ffffff;
 }
 
-#blue1 {
-  background: #3498db;
-  position: relative;
-}
+
 .mybuttonoverlap {
   position: absolute;
   background-color: #000000;
@@ -40,98 +37,125 @@ div:hover {
   cursor: pointer;
 }
 
+/* https://github.com/css-modules/postcss-modules-values */
+@value blueHex1 #3498db;
+@value blueHex2 #2475b0;
+@value blueHex3 #74b9ff;
+@value blueHex4 #0a79df;
+@value blueHex5 #4834df;
+@value blueHex6 #30336b;
+@value blueHex7 #487eb0;
+@value blueHex8 #192a56;
+@value blueHex9 #6a89cc;
+@value blueHex10 #0a3d62;
+@value blueHex11 #4b77be;
+@value blueHex12 #304ffe;
+@value blueHex13 #4527a0;
+@value blueHex14 #30336b;
+@value blueHex15 #3c40c6;
+@value blueHex16 #25ccf7;
+@value blueHex17 #003171;
+@value blueHex18 #4bcffa;
+@value blueHex19 #0abde3;
+@value blueHex20 #8c7ae6;
+@value blueHex21 #67e6dc;
+
+#blue1 {
+  background: blueHex1;
+  position: relative;
+}
 #blue2 {
-  background: #2475b0;
+  background: blueHex2;
   position: relative;
 }
 
 #blue3 {
-  background: #74b9ff;
+  background: blueHex3;
   position: relative;
 }
 
 #blue4 {
-  background: #0a79df;
+  background: blueHex4;
   position: relative;
 }
 
 #blue5 {
-  background: #4834df;
+  background: blueHex5;
   position: relative;
 }
 
 #blue6 {
-  background: #30336b;
+  background: blueHex6;
   position: relative;
 }
 
 #blue7 {
-  background: #487eb0;
+  background: blueHex7;
   position: relative;
 }
 
 #blue8 {
-  background: #192a56;
+  background: blueHex8;
   position: relative;
 }
 
 #blue9 {
-  background: #6a89cc;
+  background: blueHex9;
   position: relative;
 }
 
 #blue10 {
-  background: #0a3d62;
+  background: blueHex10;
   position: relative;
 }
 
 #blue11 {
-  background: #4b77be;
+  background: blueHex11;
   position: relative;
 }
 
 #blue12 {
-  background: #304ffe;
+  background: blueHex12;
   position: relative;
 }
 
 #blue13 {
-  background: #4527a0;
+  background: blueHex13;
   position: relative;
 }
 
 #blue14 {
-  background: #30336b;
+  background: blueHex14;
   position: relative;
 }
 
 #blue15 {
-  background: #3c40c6;
+  background: blueHex15;
   position: relative;
 }
 
 #blue16 {
-  background: #25ccf7;
+  background: blueHex16;
   position: relative;
 }
 #blue17 {
-  background: #003171;
+  background: blueHex17;
   position: relative;
 }
 #blue18 {
-  background: #4bcffa;
+  background: blueHex18;
   position: relative;
 }
 #blue19 {
-  background: #0abde3;
+  background: blueHex19;
   position: relative;
 }
 #blue20 {
-  background: #8c7ae6;
+  background: blueHex20;
   position: relative;
 }
 #blue21 {
-  background: #67e6dc;
+  background: blueHex21;
   position: relative;
 }
 
